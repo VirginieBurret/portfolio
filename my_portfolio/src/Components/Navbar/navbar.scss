@@ -1,0 +1,113 @@
+.topbarContainer{
+    height: 75px;
+    width: 100%;
+    background-color: black ;
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    z-index: 999; // over everything
+}
+
+.topbarLeft {
+  flex:2;
+  margin-left: 1rem;
+  //background-color:red; 
+}
+
+.lang {
+  height: 2rem;
+  width: 2rem;
+}
+
+.topbarLinks{
+    flex:2;
+    
+    //background-color:orange;
+    
+  }
+
+  .topbarlink{
+    color: lightgray;
+  }
+
+  .topbarlink:hover{
+    color: white;
+  }
+
+  .searchbar {
+    width: 100%;
+    height: 30px;
+    background-color:white;
+    border-radius:20px;
+    display:flex;
+    align-items:center;
+  }
+
+  .searchIcon{
+      font-size:25px !important; // pour appliquer un style a un material icon il faut mettre le important
+      margin-left: 10px;
+  }
+
+  .searchInput {
+    border: none !important;
+    width:70%;
+    
+  }
+
+  .searchInput:focus{
+      outline:none;
+  }
+
+  .topbarRight {
+    flex:2;
+    //background-color:green;for see the size
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    margin-right: 1rem;
+  }
+
+
+  // top bar container sera divisé en 12 parties , 3 seront pour left, 5 pour center et 4 pour right
+  // on peut diviser le container en autant de parties qu'on veut
+
+  .topbarlink {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .topbarIcons {
+    display:flex;
+  }
+
+  .topbarIconItem {
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+
+
+
+  .topbarImg {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .logo{ 
+      font-size:2rem;
+      color: white;
+      font-weight:bold;
+      margin-left: 20px;
+      cursor: pointer;
+  }
+
+  .topbarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover; // cover all his containers
+    cursor: pointer;
+  }
