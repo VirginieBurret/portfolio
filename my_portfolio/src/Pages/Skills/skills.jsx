@@ -2,7 +2,7 @@ import React from 'react'
 import './skills.scss'
 function skills() {
     return (
-        <div className="skills">
+        <div id="skills" className="skills">
           <h1 className="maintitle">SKILLS</h1>
 
             <div className="tech">

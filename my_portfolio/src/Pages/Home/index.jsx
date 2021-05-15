@@ -3,7 +3,7 @@ import './home.scss';
 function Home () {
     return (
         
-             <div className='home'>
+             <div id="home" className='home'>
                
                 <img className="background" src={`${process.env.PUBLIC_URL}/background.jpg`} alt=""/>
                

@@ -2,9 +2,10 @@ import React from "react";
 import "./navbar.scss";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import TwitterIcon from '@material-ui/icons/Twitter';
+
 import {Search, Person, Chat, Notifications} from '@material-ui/icons';
-import { Button, Popup } from 'semantic-ui-react'
+import { Button, Popup } from 'semantic-ui-react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const TopBar =() => {
     return (
@@ -17,28 +18,27 @@ const TopBar =() => {
             
             <div className="topbarRight">
                 <div className="topbarLinks">
-                    <span className="topbarlink">Accueil</span>
-                    <span className="topbarlink">A propos</span>
-                    <span className="topbarlink">Compétences</span>
-                    <span className="topbarlink">Expériences</span>
-                    <span className="topbarlink">Projets</span>
-                    <span className="topbarlink">Contact</span>
+                
+                   <Link style={{textDecoration:"none"}}to="/pathLink#home"> <span className="topbarlink">Home</span></Link>
+                   <Link style={{textDecoration:"none"}}to="/pathLink#about"> <span className="topbarlink">About</span></Link>
+                   <Link style={{textDecoration:"none"}}to="/pathLink#skills"> <span className="topbarlink">Skills</span></Link>
+                    <span className="topbarlink">Experiences</span>
+                    <Link style={{textDecoration:"none"}}to="/pathLink#projects"> <span className="topbarlink">Projects</span></Link>
+                    <Link style={{textDecoration:"none"}}to="/pathLink#contact"> <span className="topbarlink">Contact</span></Link>
                 </div>
                 <div className="topbarIcons">
                     <div className="topbarIconItem">
-                      <LinkedInIcon />
-                      
+                    <a target="_blank" className="externalLink" href="https://github.com/VirginieBurret" ><GitHubIcon /></a>
+                     
                     </div>
 
                     <div className="topbarIconItem">
-                      <GitHubIcon />
+                    <a target="_blank" className="externalLink" href="https://www.linkedin.com/in/virginie-burret-58b7341b1/" ><LinkedInIcon/></a>
+                      
                       
                     </div>
 
-                    <div className="topbarIconItem">
-                      <TwitterIcon />
                     
-                    </div>
                     
                 </div>
                 

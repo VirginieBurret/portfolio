@@ -22,7 +22,9 @@
 
 .topbarLinks{
     flex:2;
-    
+    display: flex;
+    justify-content: space-around;
+    margin-right: 1rem;
     //background-color:orange;
     
   }

@@ -5,7 +5,7 @@ import Typewriter from './Components/Typewriter/index';
 import About from './Pages/About/index';
 import Skills from './Pages/Skills/skills';
 import Projects from './Pages/Projects';
-
+import Contact from './Pages/Contact';
 function App() {
 
   return (
@@ -17,6 +17,7 @@ function App() {
     <About/>
     <Skills/>
     <Projects/>
+    <Contact/>
     </div>
   );
 }
