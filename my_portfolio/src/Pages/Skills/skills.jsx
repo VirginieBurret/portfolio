@@ -36,6 +36,9 @@ function skills() {
                 <img className="icon" src={`${process.env.PUBLIC_URL}/programming_icons/gitlab.png`} alt=""/>
                 <img className="icon" src={`${process.env.PUBLIC_URL}/programming_icons/trello.png`} alt=""/>
                 <img className="icon" src={`${process.env.PUBLIC_URL}/programming_icons/clickup.png`} alt=""/>
+                <img className="icon" src={`${process.env.PUBLIC_URL}/programming_icons/figma.png`} alt=""/>
+                <img className="icon" src={`${process.env.PUBLIC_URL}/programming_icons/photofiltre.png`} alt=""/>
+                <img className="icon" src={`${process.env.PUBLIC_URL}/programming_icons/svg.png`} alt=""/>
            </div>
         </div>
 
