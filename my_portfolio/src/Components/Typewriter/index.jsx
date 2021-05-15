@@ -36,7 +36,6 @@ const TitleMessage = () => (
   <MyTitleMessage>
     <div className="titleMessage">
       <div className="heading">
-      <img style={{width:"30rem"}} src="http://www.edservices.fr/wp-content/uploads/2016/04/page-en-construction.png" alt=""/>
         <div className="main text-center mb-3">
           Hello, I am
           <br />
