@@ -52,6 +52,7 @@ $dur: .3s;
   color: $fg;
   position: relative;
   transition: color $dur;
+  margin-right:5rem;
   
   &:hover {
     color: #ff3cac;
