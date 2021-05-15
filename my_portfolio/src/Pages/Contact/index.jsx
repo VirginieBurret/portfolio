@@ -13,7 +13,7 @@ function Contact() {
                <img className="contactIMG" src={`${process.env.PUBLIC_URL}/contact.png`} alt=""/>
                <p><span className="before">Email</span> : burret.vrgn@gmail.com</p>
                <p><span className="before">Phone</span>  : +33 07 85 66 94 61</p>
-               <p><span className="before">Location</span>  : Current: Toulouse, mobile into France and International</p>
+               <p><span className="before">Location</span>  : Toulouse, mobile into France and International</p>
 
                <div className="icons">
                <a target="_blank" className="externalLink" href="https://www.linkedin.com/in/virginie-burret-58b7341b1/" ><LinkedInIcon style={{ fontSize: 40 }}/></a>

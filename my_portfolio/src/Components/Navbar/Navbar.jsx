@@ -22,7 +22,6 @@ const TopBar =() => {
                    <Link style={{textDecoration:"none"}}to="/pathLink#home"> <span className="topbarlink">Home</span></Link>
                    <Link style={{textDecoration:"none"}}to="/pathLink#about"> <span className="topbarlink">About</span></Link>
                    <Link style={{textDecoration:"none"}}to="/pathLink#skills"> <span className="topbarlink">Skills</span></Link>
-                    <span className="topbarlink">Experiences</span>
                     <Link style={{textDecoration:"none"}}to="/pathLink#projects"> <span className="topbarlink">Projects</span></Link>
                     <Link style={{textDecoration:"none"}}to="/pathLink#contact"> <span className="topbarlink">Contact</span></Link>
                 </div>
