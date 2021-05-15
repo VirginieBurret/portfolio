@@ -6,7 +6,7 @@ function Home () {
              <div className='home'>
                
                 <img className="background" src={`${process.env.PUBLIC_URL}/background.jpg`} alt=""/>
-
+               
             </div>
        
     )
