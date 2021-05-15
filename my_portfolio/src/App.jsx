@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/index';
 import Typewriter from './Components/Typewriter/index';
 import About from './Pages/About/index';
-//import Skills from './Pages/Skills/skills';
+import Skills from './Pages/Skills/skills';
 //import Projects from './Pages/Projects';
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
     <Navbar/>
     <Home />
     <About/>
+    <Skills/>
   
     </div>
   );
