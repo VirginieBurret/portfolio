@@ -1,22 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 .home{
-    height:100vh;
+    height:calc(100vh-75px);
     width: 100vw;
     font-family: 'Roboto', sans-serif;
     background-color:black;
-    color: #ff3bac;
-    border-top: white 1px;
+    color: white;
+    color:#ff3cac;
+    margin-bottom: 3rem;
     
    
     
 }
 
-.typeWriter {
-    font-family: 'Press Start 2P', cursive;
-}
 .home_content {
     display: flex;
     flex-direction: column;
@@ -33,10 +30,10 @@
 
 
 .above, .job{
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .big{
-    font-size:4rem;
+    font-size:3.5rem;
     font-weight: 900;
 }
